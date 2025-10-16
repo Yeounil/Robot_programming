@@ -1,0 +1,1 @@
+/home/kohjj27/my_ws/build/wanderbot/ament_cmake_core/wanderbotConfig-version.cmake

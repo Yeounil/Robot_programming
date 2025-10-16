@@ -1,0 +1,25 @@
+
+
+mindist >0.8 turn 0 -> go straight
+min dist = range ahead / turn = 1
+ -> turn left
+ 
+ rrange ->> turn left / turn =1
+ lrange ->> turn right / turn  =2
+ 
+ 
+ left, right < 0.7 turn
+  >0.7 range[0] 
+  
+  
+  
+  
+  --------mission2 ---------
+  front wall O-> turn right
+  left wall x -> turn left
+  
+  0. go straight -> turn = 0
+  1. turn right -> turn = 1
+  2. go -> turn = 2
+  3. turn left -> turn = 3
+  4. go straight -> turn = 0

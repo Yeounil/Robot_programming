@@ -1,0 +1,24 @@
+[0.020s] Invoking command in '/home/kohjj27/my_ws/build/topic_ex_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/topic_ex_c -- -j16 -l16
+[0.083s] [ 50%] Built target topic_sub
+[0.084s] [100%] Built target topic_pub
+[0.112s] Invoked command in '/home/kohjj27/my_ws/build/topic_ex_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/topic_ex_c -- -j16 -l16
+[0.113s] Invoking command in '/home/kohjj27/my_ws/build/topic_ex_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kohjj27/my_ws/build/topic_ex_c
+[0.126s] -- Install configuration: ""
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/lib/topic_ex_c/topic_pub
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/lib/topic_ex_c/topic_sub
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/share/ament_index/resource_index/package_run_dependencies/topic_ex_c
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/share/ament_index/resource_index/parent_prefix_path/topic_ex_c
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/environment/ament_prefix_path.sh
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/environment/ament_prefix_path.dsv
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/environment/path.sh
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/environment/path.dsv
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/local_setup.bash
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/local_setup.sh
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/local_setup.zsh
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/local_setup.dsv
+[0.127s] -- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/package.dsv
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/share/ament_index/resource_index/packages/topic_ex_c
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/cmake/topic_ex_cConfig.cmake
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/cmake/topic_ex_cConfig-version.cmake
+[0.127s] -- Up-to-date: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/package.xml
+[0.169s] Invoked command in '/home/kohjj27/my_ws/build/topic_ex_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kohjj27/my_ws/build/topic_ex_c

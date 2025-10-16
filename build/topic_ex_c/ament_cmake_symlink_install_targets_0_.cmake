@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kohjj27/my_ws/build/topic_ex_c/topic_pub" "/home/kohjj27/my_ws/build/topic_ex_c/topic_sub" "TARGETS" "topic_pub" "topic_sub" "DESTINATION" "lib/topic_ex_c")

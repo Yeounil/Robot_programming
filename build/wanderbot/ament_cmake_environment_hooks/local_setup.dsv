@@ -1,0 +1,2 @@
+source;share/wanderbot/environment/ament_prefix_path.sh
+source;share/wanderbot/environment/path.sh

@@ -1,0 +1,4 @@
+Invoking command in '/home/kohjj27/my_ws/build/topic_ex_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kohjj27/my_ws/src/topic_ex_c -DCMAKE_INSTALL_PREFIX=/home/kohjj27/my_ws/install/topic_ex_c
+Invoked command in '/home/kohjj27/my_ws/build/topic_ex_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kohjj27/my_ws/src/topic_ex_c -DCMAKE_INSTALL_PREFIX=/home/kohjj27/my_ws/install/topic_ex_c
+Invoking command in '/home/kohjj27/my_ws/build/topic_ex_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/topic_ex_c -- -j16 -l16
+Invoked command in '/home/kohjj27/my_ws/build/topic_ex_c' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/topic_ex_c -- -j16 -l16

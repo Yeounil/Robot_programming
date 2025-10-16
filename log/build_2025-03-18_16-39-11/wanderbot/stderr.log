@@ -1,0 +1,11 @@
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_rot.cpp:26:36:[m[K [01;31m[Kerror: [m[K‘[01m[KsharedPtr[m[K’ in ‘[01m[Kclass rclcpp::TimerBase[m[K’ does not name a type
+   26 |                 rclcpp::TimerBase::[01;31m[KsharedPtr[m[K timer_;
+      |                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_rot.cpp:[m[K In constructor ‘[01m[KGoRot::GoRot()[m[K’:
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_rot.cpp:17:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   17 |                         [01;31m[Ktimer_[m[K = this->create_wall_timer(100ms, std::bind(&GoRot::timer_cb, this));
+      |                         [01;31m[K^~~~~~[m[K
+      |                         [32m[Ktimer_t[m[K
+gmake[2]: *** [CMakeFiles/go_rot.dir/build.make:76: CMakeFiles/go_rot.dir/src/go_rot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_rot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

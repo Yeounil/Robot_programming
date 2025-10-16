@@ -1,0 +1,143 @@
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:120:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  120 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:15:36:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   15 | class GoScan : public rclcpp::Node [01;36m[K{[m[K
+      |                                    [01;36m[K^[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:[m[K In constructor ‘[01m[KGoScan::GoScan()[m[K’:
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:18:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+   18 |                         [01;31m[Kpub_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 1);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:19:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   19 |                         [01;31m[Ktimer_[m[K = this->create_wall_timer(100ms, std::bind(&GoScan::timer_cb, this));
+      |                         [01;31m[K^~~~~~[m[K
+      |                         [32m[Ktimer_t[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:21:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ was not declared in this scope
+   21 |                         [01;31m[Ksub_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>("scan", rclcpp::QoS(1).best_effort(), std::bind(&GoScan::scan_cb, this, _1));
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:[m[K In member function ‘[01m[Kvoid GoScan::timer_cb()[m[K’:
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:28:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_dist[m[K’ was not declared in this scope
+   28 |                         if([01;31m[Kmin_dist[m[K > range_min && min_dist < range_max) {
+      |                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:28:39:[m[K [01;31m[Kerror: [m[K‘[01m[Krange_min[m[K’ was not declared in this scope
+   28 |                         if(min_dist > [01;31m[Krange_min[m[K && min_dist < range_max) {
+      |                                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:28:63:[m[K [01;31m[Kerror: [m[K‘[01m[Krange_max[m[K’ was not declared in this scope
+   28 |                         if(min_dist > range_min && min_dist < [01;31m[Krange_max[m[K) {
+      |                                                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:29:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kturn[m[K’ was not declared in this scope
+   29 |                                 if ([01;31m[Kturn[m[K = 0) { // go
+      |                                     [01;31m[K^~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:41:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+   41 |                         [01;31m[Kpub_[m[K->publish(cmd);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:[m[K In member function ‘[01m[Kvoid GoScan::scan_cb(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:45:25:[m[K [01;31m[Kerror: [m[K‘[01m[Krange_ahead_[m[K’ was not declared in this scope
+   45 |                         [01;31m[Krange_ahead_[m[K = msg->ranges[0];
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:46:44:[m[K [01;31m[Kerror: [m[K‘[01m[Krange_min[m[K’ was not declared in this scope
+   46 |                         if (range_ahead_ < [01;31m[Krange_min[m[K || range_ahead_ > range_max) range_ahead_ = range_max;
+      |                                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:46:72:[m[K [01;31m[Kerror: [m[K‘[01m[Krange_max[m[K’ was not declared in this scope
+   46 |                         if (range_ahead_ < range_min || range_ahead_ > [01;31m[Krange_max[m[K) range_ahead_ = range_max;
+      |                                                                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:50:37:[m[K [01;31m[Kerror: [m[K‘[01m[Krrange[m[K’ was not declared in this scope
+   50 |                                 if ([01;31m[Krrange[m[K > msg->ranges[i] && msg->ranges[i] > range_min && msg->ranges[i] < range_max) {
+      |                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:50:81:[m[K [01;31m[Kerror: [m[K‘[01m[Krange_min[m[K’ was not declared in this scope
+   50 |                                 if (rrange > msg->ranges[i] && msg->ranges[i] > [01;31m[Krange_min[m[K && msg->ranges[i] < range_max) {
+      |                                                                                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:50:111:[m[K [01;31m[Kerror: [m[K‘[01m[Krange_max[m[K’ was not declared in this scope
+   50 |                                 if (rrange > msg->ranges[i] && msg->ranges[i] > range_min && msg->ranges[i] < [01;31m[Krange_max[m[K) {
+      |                                                                                                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:52:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_right[m[K’ was not declared in this scope
+   52 |                                         [01;31m[Kmin_right[m[K = i;
+      |                                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:57:37:[m[K [01;31m[Kerror: [m[K‘[01m[Klrange[m[K’ was not declared in this scope
+   57 |                                 if ([01;31m[Klrange[m[K > msg->ranges[i] && msg->ranges[i] > range_min && msg->ranges[i] < range_max) {
+      |                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:57:81:[m[K [01;31m[Kerror: [m[K‘[01m[Krange_min[m[K’ was not declared in this scope
+   57 |                                 if (lrange > msg->ranges[i] && msg->ranges[i] > [01;31m[Krange_min[m[K && msg->ranges[i] < range_max) {
+      |                                                                                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:57:111:[m[K [01;31m[Kerror: [m[K‘[01m[Krange_max[m[K’ was not declared in this scope
+   57 |                                 if (lrange > msg->ranges[i] && msg->ranges[i] > range_min && msg->ranges[i] < [01;31m[Krange_max[m[K) {
+      |                                                                                                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:59:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_left[m[K’ was not declared in this scope
+   59 |                                         [01;31m[Kmin_left[m[K = i;
+      |                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:64:28:[m[K [01;31m[Kerror: [m[K‘[01m[Klrange[m[K’ was not declared in this scope
+   64 |                         if([01;31m[Klrange[m[K > rrange) {
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:64:37:[m[K [01;31m[Kerror: [m[K‘[01m[Krrange[m[K’ was not declared in this scope
+   64 |                         if(lrange > [01;31m[Krrange[m[K) {
+      |                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:65:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_dist[m[K’ was not declared in this scope
+   65 |                                 [01;31m[Kmin_dist[m[K = rrange;
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:66:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kturn[m[K’ was not declared in this scope
+   66 |                                 [01;31m[Kturn[m[K = 1;  // turn left
+      |                                 [01;31m[K^~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:67:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+   67 |                         [01;31m[Kelse[m[K {
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:64:45:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   64 |                         if(lrange > rrange) [01;36m[K{[m[K
+      |                                             [01;36m[K^[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:68:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_dist[m[K’ was not declared in this scope
+   68 |                                 [01;31m[Kmin_dist[m[K = lrange;
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:69:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kturn[m[K’ was not declared in this scope
+   69 |                                 [01;31m[Kturn[m[K = 2; // turn right
+      |                                 [01;31m[K^~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:72:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_dist[m[K’ was not declared in this scope
+   72 |                         if ([01;31m[Kmin_dist[m[K >= range_ahead_) {
+      |                             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:74:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kturn[m[K’ was not declared in this scope
+   74 |                                 [01;31m[Kturn[m[K = 1; // turn left
+      |                                 [01;31m[K^~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:80:103:[m[K [01;31m[Kerror: [m[K‘[01m[Klrange[m[K’ was not declared in this scope
+   80 |                         printf("range ahead: %f / lrange: %f / rrange: %f, min : %f\n", range_ahead_, [01;31m[Klrange[m[K, rrange, min_dist);
+      |                                                                                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:80:111:[m[K [01;31m[Kerror: [m[K‘[01m[Krrange[m[K’ was not declared in this scope
+   80 |                         printf("range ahead: %f / lrange: %f / rrange: %f, min : %f\n", range_ahead_, lrange, [01;31m[Krrange[m[K, min_dist);
+      |                                                                                                               [01;31m[K^~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:111:23:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat min_dist[m[K’
+  111 |                 float [01;31m[Kmin_dist[m[K;
+      |                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:72:29:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>min_dist[m[K’ previously declared here
+   72 |                         if ([01;36m[Kmin_dist[m[K >= range_ahead_) {
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:93:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_ahead_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   93 |                 float [01;35m[Krange_ahead_[m[K;
+      |                       [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:95:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   95 |                 float [01;35m[Krange_min[m[K = msg->range_min;
+      |                       [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:96:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   96 |                 float [01;35m[Krange_max[m[K = msg->range_max;
+      |                       [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:109:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krrange[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  109 |                 float [01;35m[Krrange[m[K = msg->range_max; // right min distance
+      |                       [01;35m[K^~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:110:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klrange[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  110 |                 float [01;35m[Klrange[m[K = msg->range_max; // left min distance
+      |                       [01;35m[K^~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:111:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmin_dist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  111 |                 float [01;35m[Kmin_dist[m[K;
+      |                       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:115:35:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  115 | int main(int argc, char * argv[]) [01;31m[K{[m[K
+      |                                   [01;31m[K^[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:120:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  120 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:44:80:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   44 |                 void scan_cb(const sensor_msgs::msg::LaserScan::SharedPtr msg) [01;36m[K{[m[K
+      |                                                                                [01;36m[K^[m[K
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:[m[K At global scope:
+[01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:120:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  120 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/go_scan.dir/build.make:76: CMakeFiles/go_scan.dir/src/go_scan.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/go_scan.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ba25568a75e26f88cdc6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "topic_ex_c",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_ex_c_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_ex_c_uninstall-6d82c975cb033ac8ed47.json",
+					"name" : "topic_ex_c_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_pub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_pub-92e860462d1b8fbf8016.json",
+					"name" : "topic_pub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_sub-7381f5c4afed8ad276e0.json",
+					"name" : "topic_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-13160b520fb5958fe614.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kohjj27/my_ws/build/topic_ex_c",
+		"source" : "/home/kohjj27/my_ws/src/topic_ex_c"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

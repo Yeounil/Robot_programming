@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-804e9dc4042e21241d5e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "wanderbot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "go_rot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go_rot-0967ece471265626fbd6.json",
+					"name" : "go_rot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go_scan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go_scan-ae3f324cf6afc66e5c13.json",
+					"name" : "go_scan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-89f07bcbd1802cefc247.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wanderbot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wanderbot_uninstall-fc6bab7074c62a0eb4cd.json",
+					"name" : "wanderbot_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kohjj27/my_ws/build/wanderbot",
+		"source" : "/home/kohjj27/my_ws/src/wanderbot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

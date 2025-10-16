@@ -1,0 +1,4 @@
+Invoking command in '/home/kohjj27/my_ws/build/wanderbot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kohjj27/my_ws/src/wanderbot -DCMAKE_INSTALL_PREFIX=/home/kohjj27/my_ws/install/wanderbot
+Invoked command in '/home/kohjj27/my_ws/build/wanderbot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kohjj27/my_ws/src/wanderbot -DCMAKE_INSTALL_PREFIX=/home/kohjj27/my_ws/install/wanderbot
+Invoking command in '/home/kohjj27/my_ws/build/wanderbot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/wanderbot -- -j16 -l16
+Invoked command in '/home/kohjj27/my_ws/build/wanderbot' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/wanderbot -- -j16 -l16

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kohjj27/my_ws/build/wanderbot/go_rot" "/home/kohjj27/my_ws/build/wanderbot/go_scan" "TARGETS" "go_rot" "go_scan" "DESTINATION" "lib/wanderbot")

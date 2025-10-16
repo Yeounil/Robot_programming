@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000826] (topic_ex_c) JobQueued: {'identifier': 'topic_ex_c', 'dependencies': OrderedDict()}
+[0.000910] (topic_ex_c) JobStarted: {'identifier': 'topic_ex_c'}
+[0.008581] (topic_ex_c) JobProgress: {'identifier': 'topic_ex_c', 'progress': 'cmake'}
+[0.009211] (topic_ex_c) JobProgress: {'identifier': 'topic_ex_c', 'progress': 'build'}
+[0.009914] (topic_ex_c) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kohjj27/my_ws/build/topic_ex_c', '--', '-j16', '-l16'], 'cwd': '/home/kohjj27/my_ws/build/topic_ex_c', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kohjj27'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kohjj27'), ('OLDPWD', '/home/kohjj27/my_ws/src/topic_ex_c/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1865'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kohjj27'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kohjj27'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kohjj27-Blade-14-RZ09-0370:@/tmp/.ICE-unix/1675,unix/kohjj27-Blade-14-RZ09-0370:/tmp/.ICE-unix/1675'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a10c13d3_8eff_442a_a3f7_b34888b5c336'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JMGO22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kohjj27/my_ws/build/topic_ex_c'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.064069] (topic_ex_c) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target topic_pub\x1b[0m\n'}
+[0.084291] (topic_ex_c) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/topic_pub.dir/src/topic_publisher.cpp.o\x1b[0m\n'}
+[0.091911] (-) TimerEvent: {}
+[0.192222] (-) TimerEvent: {}
+[0.292637] (-) TimerEvent: {}
+[0.393029] (-) TimerEvent: {}
+[0.493444] (-) TimerEvent: {}
+[0.593863] (-) TimerEvent: {}
+[0.694271] (-) TimerEvent: {}
+[0.794698] (-) TimerEvent: {}
+[0.895070] (-) TimerEvent: {}
+[0.995365] (-) TimerEvent: {}
+[1.095673] (-) TimerEvent: {}
+[1.196029] (-) TimerEvent: {}
+[1.296338] (-) TimerEvent: {}
+[1.396654] (-) TimerEvent: {}
+[1.496955] (-) TimerEvent: {}
+[1.597260] (-) TimerEvent: {}
+[1.697571] (-) TimerEvent: {}
+[1.797875] (-) TimerEvent: {}
+[1.898176] (-) TimerEvent: {}
+[1.998485] (-) TimerEvent: {}
+[2.098773] (-) TimerEvent: {}
+[2.199066] (-) TimerEvent: {}
+[2.296556] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:14:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected class-name before \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.296950] (topic_ex_c) StderrLine: {'line': b'   14 | class MinPub : pulic \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Node\n'}
+[2.297053] (topic_ex_c) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.297131] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:14:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.297204] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:16:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.297274] (topic_ex_c) StderrLine: {'line': b'   16 |         \x1b[01;31m\x1b[Kpublic\x1b[m\x1b[K:\n'}
+[2.297344] (topic_ex_c) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.297417] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:16:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.297578] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:15:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.297649] (topic_ex_c) StderrLine: {'line': b'   15 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[2.297706] (topic_ex_c) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.297764] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.297822] (topic_ex_c) StderrLine: {'line': b'   25 |         \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[2.297885] (topic_ex_c) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.297945] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:35:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<std_msgs::msg::Int32_<std::allocator<void> > >::SharedPtr publisher_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.298006] (topic_ex_c) StderrLine: {'line': b'   35 |          rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[2.298073] (topic_ex_c) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.298129] (topic_ex_c) StderrLine: {'line': b'\n'}
+[2.298174] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:12:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<std_msgs::msg::Int32_<std::allocator<void> > >::SharedPtr publisher_\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.298219] (topic_ex_c) StderrLine: {'line': b'   12 | rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr \x1b[01;36m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[2.298264] (topic_ex_c) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.298306] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:38:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.298349] (topic_ex_c) StderrLine: {'line': b'   38 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.298392] (topic_ex_c) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.298449] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:40:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kchar** argc\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.298498] (topic_ex_c) StderrLine: {'line': b'   40 | int main(int argc, \x1b[01;31m\x1b[Kchar * argc[]\x1b[m\x1b[K)\n'}
+[2.298543] (topic_ex_c) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.298587] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:40:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kint argc\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.298631] (topic_ex_c) StderrLine: {'line': b'   40 | int main(\x1b[01;36m\x1b[Kint argc\x1b[m\x1b[K, char * argc[])\n'}
+[2.298675] (topic_ex_c) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[2.298718] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.298761] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:42:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char* const*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.298808] (topic_ex_c) StderrLine: {'line': b'   42 |         rclcpp::init(argc, \x1b[01;31m\x1b[Kargc\x1b[m\x1b[K);\n'}
+[2.298853] (topic_ex_c) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.298897] (topic_ex_c) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.298949] (topic_ex_c) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.298994] (topic_ex_c) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K,\n'}
+[2.299037] (topic_ex_c) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.299079] (-) TimerEvent: {}
+[2.299163] (topic_ex_c) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.299257] (topic_ex_c) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.299320] (topic_ex_c) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.299378] (topic_ex_c) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.299449] (topic_ex_c) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.299505] (topic_ex_c) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.299556] (topic_ex_c) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.299657] (topic_ex_c) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.299780] (topic_ex_c) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.299850] (topic_ex_c) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:6\x1b[m\x1b[K:\n'}
+[2.299897] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:77:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&, rclcpp::SignalHandlerOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.299945] (topic_ex_c) StderrLine: {'line': b'   77 |   \x1b[01;36m\x1b[Kchar const * const * argv\x1b[m\x1b[K,\n'}
+[2.299990] (topic_ex_c) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.300035] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:43:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin(std::shared_ptr<MinPub>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.300080] (topic_ex_c) StderrLine: {'line': b'   43 |         \x1b[01;31m\x1b[Krclcpp::spin(std::make_shared<MinPub>())\x1b[m\x1b[K;\n'}
+[2.300125] (topic_ex_c) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.300168] (topic_ex_c) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.300212] (topic_ex_c) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:6\x1b[m\x1b[K:\n'}
+[2.300256] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.300301] (topic_ex_c) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[2.300344] (topic_ex_c) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.300390] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KMinPub\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::node_interfaces::NodeBaseInterface\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.300452] (topic_ex_c) StderrLine: {'line': b'   45 | spin(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[2.300504] (topic_ex_c) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.300559] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.300606] (topic_ex_c) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[2.300651] (topic_ex_c) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.300696] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KMinPub\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::Node\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.300742] (topic_ex_c) StderrLine: {'line': b'   49 | spin(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[2.300786] (topic_ex_c) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.399203] (-) TimerEvent: {}
+[2.499502] (-) TimerEvent: {}
+[2.599804] (-) TimerEvent: {}
+[2.602673] (topic_ex_c) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:42\x1b[m\x1b[K,\n'}
+[2.602849] (topic_ex_c) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[2.602928] (topic_ex_c) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:2\x1b[m\x1b[K:\n'}
+[2.603011] (topic_ex_c) StderrLine: {'line': b'/usr/include/c++/11/ext/aligned_buffer.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct __gnu_cxx::__aligned_buffer<MinPub>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.603077] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:506:35:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::_Sp_counted_ptr_inplace<MinPub, std::allocator<MinPub>, __gnu_cxx::_S_atomic>::_Impl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.603139] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:567:13:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::_Sp_counted_ptr_inplace<MinPub, std::allocator<MinPub>, __gnu_cxx::_S_atomic>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.603199] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:647:43:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MinPub; _Alloc = std::allocator<MinPub>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.603272] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinPub>; _Args = {}; _Tp = MinPub; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.603341] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinPub>; _Args = {}; _Tp = MinPub]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.603402] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MinPub; _Alloc = std::allocator<MinPub>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.603499] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MinPub; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.603567] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:43:39:\x1b[m\x1b[K   required from here\n'}
+[2.603623] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KMinPub\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.603681] (topic_ex_c) StderrLine: {'line': b'   91 |     : std::aligned_storage<\x1b[01;31m\x1b[Ksizeof(_Tp)\x1b[m\x1b[K, __alignof__(_Tp)>\n'}
+[2.603735] (topic_ex_c) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.603780] (topic_ex_c) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KMinPub\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.699928] (-) TimerEvent: {}
+[2.711813] (topic_ex_c) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/topic_pub.dir/build.make:76: CMakeFiles/topic_pub.dir/src/topic_publisher.cpp.o] Error 1\n'}
+[2.712215] (topic_ex_c) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/topic_pub.dir/all] Error 2\n'}
+[2.712568] (topic_ex_c) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.715590] (topic_ex_c) CommandEnded: {'returncode': 2}
+[2.723627] (topic_ex_c) JobEnded: {'identifier': 'topic_ex_c', 'rc': 2}
+[2.734112] (-) EventReactorShutdown: {}

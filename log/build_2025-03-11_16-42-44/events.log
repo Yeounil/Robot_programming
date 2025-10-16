@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000183] (topic_ex_c) JobQueued: {'identifier': 'topic_ex_c', 'dependencies': OrderedDict()}
+[0.000887] (topic_ex_c) JobStarted: {'identifier': 'topic_ex_c'}
+[0.008776] (topic_ex_c) JobProgress: {'identifier': 'topic_ex_c', 'progress': 'cmake'}
+[0.009537] (topic_ex_c) JobProgress: {'identifier': 'topic_ex_c', 'progress': 'build'}
+[0.010359] (topic_ex_c) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kohjj27/my_ws/build/topic_ex_c', '--', '-j16', '-l16'], 'cwd': '/home/kohjj27/my_ws/build/topic_ex_c', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kohjj27'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kohjj27'), ('OLDPWD', '/home/kohjj27/my_ws/src/topic_ex_c/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1865'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kohjj27'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kohjj27'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kohjj27-Blade-14-RZ09-0370:@/tmp/.ICE-unix/1675,unix/kohjj27-Blade-14-RZ09-0370:/tmp/.ICE-unix/1675'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a10c13d3_8eff_442a_a3f7_b34888b5c336'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JMGO22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kohjj27/my_ws/build/topic_ex_c'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.068101] (topic_ex_c) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target topic_pub\x1b[0m\n'}
+[0.088207] (topic_ex_c) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/topic_pub.dir/src/topic_publisher.cpp.o\x1b[0m\n'}
+[0.099723] (-) TimerEvent: {}
+[0.200050] (-) TimerEvent: {}
+[0.300468] (-) TimerEvent: {}
+[0.400888] (-) TimerEvent: {}
+[0.501301] (-) TimerEvent: {}
+[0.601728] (-) TimerEvent: {}
+[0.702101] (-) TimerEvent: {}
+[0.802425] (-) TimerEvent: {}
+[0.902729] (-) TimerEvent: {}
+[1.003035] (-) TimerEvent: {}
+[1.103336] (-) TimerEvent: {}
+[1.203656] (-) TimerEvent: {}
+[1.303957] (-) TimerEvent: {}
+[1.404299] (-) TimerEvent: {}
+[1.504614] (-) TimerEvent: {}
+[1.604919] (-) TimerEvent: {}
+[1.705227] (-) TimerEvent: {}
+[1.805552] (-) TimerEvent: {}
+[1.905937] (-) TimerEvent: {}
+[2.006243] (-) TimerEvent: {}
+[2.106554] (-) TimerEvent: {}
+[2.206861] (-) TimerEvent: {}
+[2.307163] (-) TimerEvent: {}
+[2.407463] (-) TimerEvent: {}
+[2.507763] (-) TimerEvent: {}
+[2.608067] (-) TimerEvent: {}
+[2.708362] (-) TimerEvent: {}
+[2.808679] (-) TimerEvent: {}
+[2.908986] (-) TimerEvent: {}
+[3.009291] (-) TimerEvent: {}
+[3.109609] (-) TimerEvent: {}
+[3.209931] (-) TimerEvent: {}
+[3.310213] (-) TimerEvent: {}
+[3.410513] (-) TimerEvent: {}
+[3.510795] (-) TimerEvent: {}
+[3.611080] (-) TimerEvent: {}
+[3.711459] (-) TimerEvent: {}
+[3.811749] (-) TimerEvent: {}
+[3.912036] (-) TimerEvent: {}
+[4.012325] (-) TimerEvent: {}
+[4.111932] (topic_ex_c) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable topic_pub\x1b[0m\n'}
+[4.112414] (-) TimerEvent: {}
+[4.212679] (-) TimerEvent: {}
+[4.286562] (topic_ex_c) StdoutLine: {'line': b'[100%] Built target topic_pub\n'}
+[4.299729] (topic_ex_c) CommandEnded: {'returncode': 0}
+[4.300358] (topic_ex_c) JobProgress: {'identifier': 'topic_ex_c', 'progress': 'install'}
+[4.311790] (topic_ex_c) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kohjj27/my_ws/build/topic_ex_c'], 'cwd': '/home/kohjj27/my_ws/build/topic_ex_c', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kohjj27'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kohjj27'), ('OLDPWD', '/home/kohjj27/my_ws/src/topic_ex_c/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1865'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kohjj27'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kohjj27'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kohjj27-Blade-14-RZ09-0370:@/tmp/.ICE-unix/1675,unix/kohjj27-Blade-14-RZ09-0370:/tmp/.ICE-unix/1675'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a10c13d3_8eff_442a_a3f7_b34888b5c336'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JMGO22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kohjj27/my_ws/build/topic_ex_c'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.312703] (-) TimerEvent: {}
+[4.319395] (topic_ex_c) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.319607] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/lib/topic_ex_c/topic_pub\n'}
+[4.321151] (topic_ex_c) StdoutLine: {'line': b'-- Set runtime path of "/home/kohjj27/my_ws/install/topic_ex_c/lib/topic_ex_c/topic_pub" to ""\n'}
+[4.321360] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/ament_index/resource_index/package_run_dependencies/topic_ex_c\n'}
+[4.321645] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/ament_index/resource_index/parent_prefix_path/topic_ex_c\n'}
+[4.321911] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/environment/ament_prefix_path.sh\n'}
+[4.322089] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/environment/ament_prefix_path.dsv\n'}
+[4.322296] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/environment/path.sh\n'}
+[4.322501] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/environment/path.dsv\n'}
+[4.322710] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/local_setup.bash\n'}
+[4.322890] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/local_setup.sh\n'}
+[4.323112] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/local_setup.zsh\n'}
+[4.323291] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/local_setup.dsv\n'}
+[4.323510] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/package.dsv\n'}
+[4.323841] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/ament_index/resource_index/packages/topic_ex_c\n'}
+[4.324079] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/cmake/topic_ex_cConfig.cmake\n'}
+[4.324233] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/cmake/topic_ex_cConfig-version.cmake\n'}
+[4.324415] (topic_ex_c) StdoutLine: {'line': b'-- Installing: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/package.xml\n'}
+[4.326865] (topic_ex_c) CommandEnded: {'returncode': 0}
+[4.342226] (topic_ex_c) JobEnded: {'identifier': 'topic_ex_c', 'rc': 0}
+[4.342949] (-) EventReactorShutdown: {}

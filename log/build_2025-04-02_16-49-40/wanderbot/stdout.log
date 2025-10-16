@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target go_scan[0m
+[ 50%] Built target go_rot
+[ 75%] [32mBuilding CXX object CMakeFiles/go_scan.dir/src/go_scan.cpp.o[0m
+[100%] [32m[1mLinking CXX executable go_scan[0m
+[100%] Built target go_scan
+-- Install configuration: ""
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/lib/wanderbot/go_rot
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/lib/wanderbot/go_scan
+-- Set runtime path of "/home/kohjj27/my_ws/install/wanderbot/lib/wanderbot/go_scan" to ""
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/ament_index/resource_index/package_run_dependencies/wanderbot
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/ament_index/resource_index/parent_prefix_path/wanderbot
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/environment/path.sh
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/environment/path.dsv
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/local_setup.bash
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/local_setup.sh
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/local_setup.zsh
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/local_setup.dsv
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/package.dsv
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/ament_index/resource_index/packages/wanderbot
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/cmake/wanderbotConfig.cmake
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/cmake/wanderbotConfig-version.cmake
+-- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/package.xml

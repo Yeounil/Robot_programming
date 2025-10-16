@@ -1,0 +1,53 @@
+[0.009s] Invoking command in '/home/kohjj27/my_ws/build/topic_ex_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kohjj27/my_ws/src/topic_ex_c -DCMAKE_INSTALL_PREFIX=/home/kohjj27/my_ws/install/topic_ex_c
+[0.106s] -- The C compiler identification is GNU 11.4.0
+[0.173s] -- The CXX compiler identification is GNU 11.4.0
+[0.183s] -- Detecting C compiler ABI info
+[0.271s] -- Detecting C compiler ABI info - done
+[0.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.279s] -- Detecting C compile features
+[0.279s] -- Detecting C compile features - done
+[0.282s] -- Detecting CXX compiler ABI info
+[0.382s] -- Detecting CXX compiler ABI info - done
+[0.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.390s] -- Detecting CXX compile features
+[0.390s] -- Detecting CXX compile features - done
+[0.393s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.551s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.651s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.690s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.695s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.703s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.714s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.731s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.773s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.776s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.880s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.918s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.964s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.972s] -- Looking for pthread.h
+[1.061s] -- Looking for pthread.h - found
+[1.062s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.157s] -- Found Threads: TRUE  
+[1.210s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.291s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.291s] -- Configured cppcheck include dirs: 
+[1.291s] -- Configured cppcheck exclude dirs and/or files: 
+[1.291s] -- Added test 'lint_cmake' to check CMake code style
+[1.292s] -- Added test 'uncrustify' to check C / C++ code style
+[1.292s] -- Configured uncrustify additional arguments: 
+[1.293s] -- Added test 'xmllint' to check XML markup files
+[1.294s] -- Configuring done
+[1.304s] -- Generating done
+[1.308s] -- Build files have been written to: /home/kohjj27/my_ws/build/topic_ex_c
+[1.320s] Invoked command in '/home/kohjj27/my_ws/build/topic_ex_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kohjj27/my_ws/src/topic_ex_c -DCMAKE_INSTALL_PREFIX=/home/kohjj27/my_ws/install/topic_ex_c
+[1.322s] Invoking command in '/home/kohjj27/my_ws/build/topic_ex_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/topic_ex_c -- -j16 -l16
+[1.383s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_pub.dir/src/topic_publisher.cpp.o[0m
+[1.493s] [01m[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_publisher.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Krclcppp/rclcpp.hpp: No such file or directory
+[1.493s]     6 | #include [01;31m[K"rclcppp/rclcpp.hpp"[m[K
+[1.493s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.493s] compilation terminated.
+[1.503s] gmake[2]: *** [CMakeFiles/topic_pub.dir/build.make:76: CMakeFiles/topic_pub.dir/src/topic_publisher.cpp.o] Error 1
+[1.504s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/topic_pub.dir/all] Error 2
+[1.504s] gmake: *** [Makefile:146: all] Error 2
+[1.507s] Invoked command in '/home/kohjj27/my_ws/build/topic_ex_c' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/topic_ex_c -- -j16 -l16

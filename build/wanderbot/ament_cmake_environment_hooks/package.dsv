@@ -1,0 +1,4 @@
+source;share/wanderbot/local_setup.bash
+source;share/wanderbot/local_setup.dsv
+source;share/wanderbot/local_setup.sh
+source;share/wanderbot/local_setup.zsh

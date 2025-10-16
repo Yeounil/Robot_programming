@@ -1,0 +1,7 @@
+[01m[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_subscriber.cpp:[m[K In constructor ‘[01m[KMinSub::MinSub()[m[K’:
+[01m[K/home/kohjj27/my_ws/src/topic_ex_c/src/topic_subscriber.cpp:16:57:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callbak[m[K’ is not a member of ‘[01m[KMinSub[m[K’
+   16 |                         "count", 10, std::bind(&MinSub::[01;31m[Ktopic_callbak[m[K, this, _1));
+      |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/topic_sub.dir/build.make:76: CMakeFiles/topic_sub.dir/src/topic_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/topic_sub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,63 @@
+[0.019s] Invoking command in '/home/kohjj27/my_ws/build/wanderbot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/wanderbot -- -j16 -l16
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target go_scan[0m
+[0.089s] [ 50%] Built target go_rot
+[0.094s] [ 75%] [32mBuilding CXX object CMakeFiles/go_scan.dir/src/go_scan.cpp.o[0m
+[0.373s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:10:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #incldue; did you mean #include?
+[0.373s]    10 | #[01;31m[Kincldue[m[K "sensor_msgs/msg/laser_scan.hpp"
+[0.373s]       |  [01;31m[K^~~~~~~[m[K
+[0.373s]       |  [32m[Kinclude[m[K
+[2.654s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:35:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+[2.654s]    35 |                 void scan_cb(const [01;31m[Ksensor_msgs[m[K::msg::LaserScan::Sharedtr msg) {
+[2.654s]       |                                    [01;31m[K^~~~~~~~~~~[m[K
+[2.654s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:35:52:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[2.654s]    35 |                 void scan_cb(const sensor_msgs::msg[01;31m[K::[m[KLaserScan::Sharedtr msg) {
+[2.654s]       |                                                    [01;31m[K^~[m[K
+[2.654s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:35:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[2.654s]    35 |                 void scan_cb[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KLaserScan::Sharedtr msg) {
+[2.654s]       |                             [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+[2.655s]       |                                                    [32m[K)[m[K
+[2.655s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:35:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.655s]    35 |                 void scan_cb(const sensor_msgs::[01;31m[Kmsg[m[K::LaserScan::Sharedtr msg) {
+[2.655s]       |                                                 [01;31m[K^~~[m[K
+[2.655s]       |                                                    [32m[K;[m[K
+[2.656s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:35:54:[m[K [01;31m[Kerror: [m[K‘[01m[KLaserScan[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[2.656s]    35 |                 void scan_cb(const sensor_msgs::msg::[01;31m[KLaserScan[m[K::Sharedtr msg) {
+[2.656s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[2.665s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:41:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[2.665s]    41 |                 rclcpp::Subscription<[01;31m[Ksensor_msgs[m[K::msg::LaserScan>::SharedPtr sub_;
+[2.665s]       |                                      [01;31m[K^~~~~~~~~~~[m[K
+[2.665s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:41:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.665s]    41 |                 rclcpp::Subscription<sensor_msgs::msg::LaserScan[01;31m[K>[m[K::SharedPtr sub_;
+[2.665s]       |                                                                 [01;31m[K^[m[K
+[2.665s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:41:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[2.666s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:41:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[2.666s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:41:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[2.666s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:41:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.666s]    41 |                 rclcpp::Subscription<sensor_msgs::msg::LaserScan>::[01;31m[KSharedPtr[m[K sub_;
+[2.666s]       |                                                                    [01;31m[K^~~~~~~~~[m[K
+[2.666s]       |                                                                             [32m[K;[m[K
+[2.666s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:41:78:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ does not name a type
+[2.666s]    41 |                 rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr [01;31m[Ksub_[m[K;
+[2.666s]       |                                                                              [01;31m[K^~~~[m[K
+[2.681s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:[m[K In constructor ‘[01m[KGoScan::GoScan()[m[K’:
+[2.681s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:20:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_[m[K’?
+[2.681s]    20 |                         [01;31m[Ksub_[m[K = this->crate_subscription<sensor_msgs::msg::LaserScan>("scan", 1, std::bind(&GoScan::scan_cb, this, _1));
+[2.681s]       |                         [01;31m[K^~~~[m[K
+[2.681s]       |                         [32m[Kpub_[m[K
+[2.681s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:20:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass GoScan[m[K’ has no member named ‘[01m[Kcrate_subscription[m[K’; did you mean ‘[01m[Kcreate_subscription[m[K’?
+[2.681s]    20 |                         sub_ = this->[01;31m[Kcrate_subscription[m[K<sensor_msgs::msg::LaserScan>("scan", 1, std::bind(&GoScan::scan_cb, this, _1));
+[2.681s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.681s]       |                                      [32m[Kcreate_subscription[m[K
+[2.681s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:20:57:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ has not been declared
+[2.681s]    20 |                         sub_ = this->crate_subscription<[01;31m[Ksensor_msgs[m[K::msg::LaserScan>("scan", 1, std::bind(&GoScan::scan_cb, this, _1));
+[2.682s]       |                                                         [01;31m[K^~~~~~~~~~~[m[K
+[2.682s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:20:86:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[2.682s]    20 |                         sub_ = this->crate_subscription<sensor_msgs::msg::LaserScan>([01;35m[K"scan"[m[K, 1, std::bind(&GoScan::scan_cb, this, _1));
+[2.682s]       |                                                                                      [01;35m[K^~~~~~[m[K
+[2.684s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_scan.cpp:20:133:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[2.684s]    20 |                         sub_ = this->crate_subscription<sensor_msgs::msg::LaserScan>("scan", 1, std::bind(&GoScan::scan_cb, this, _1[01;35m[K)[m[K);
+[2.684s]       |                                                                                                                                     [01;35m[K^[m[K
+[3.455s] gmake[2]: *** [CMakeFiles/go_scan.dir/build.make:76: CMakeFiles/go_scan.dir/src/go_scan.cpp.o] Error 1
+[3.455s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/go_scan.dir/all] Error 2
+[3.455s] gmake: *** [Makefile:146: all] Error 2
+[3.459s] Invoked command in '/home/kohjj27/my_ws/build/wanderbot' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/wanderbot -- -j16 -l16

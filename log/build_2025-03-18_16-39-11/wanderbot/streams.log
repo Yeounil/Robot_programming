@@ -1,0 +1,58 @@
+[0.020s] Invoking command in '/home/kohjj27/my_ws/build/wanderbot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kohjj27/my_ws/src/wanderbot -DCMAKE_INSTALL_PREFIX=/home/kohjj27/my_ws/install/wanderbot
+[0.140s] -- The C compiler identification is GNU 11.4.0
+[0.240s] -- The CXX compiler identification is GNU 11.4.0
+[0.252s] -- Detecting C compiler ABI info
+[0.343s] -- Detecting C compiler ABI info - done
+[0.350s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.351s] -- Detecting C compile features
+[0.351s] -- Detecting C compile features - done
+[0.355s] -- Detecting CXX compiler ABI info
+[0.458s] -- Detecting CXX compiler ABI info - done
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.465s] -- Detecting CXX compile features
+[0.466s] -- Detecting CXX compile features - done
+[0.470s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.632s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.741s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.798s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.804s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.816s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.832s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.910s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.915s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.038s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.070s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.120s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.133s] -- Looking for pthread.h
+[1.230s] -- Looking for pthread.h - found
+[1.231s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.326s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.327s] -- Found Threads: TRUE  
+[1.393s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.410s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.497s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.497s] -- Configured cppcheck include dirs: 
+[1.497s] -- Configured cppcheck exclude dirs and/or files: 
+[1.497s] -- Added test 'lint_cmake' to check CMake code style
+[1.499s] -- Added test 'uncrustify' to check C / C++ code style
+[1.499s] -- Configured uncrustify additional arguments: 
+[1.499s] -- Added test 'xmllint' to check XML markup files
+[1.501s] -- Configuring done
+[1.511s] -- Generating done
+[1.516s] -- Build files have been written to: /home/kohjj27/my_ws/build/wanderbot
+[1.531s] Invoked command in '/home/kohjj27/my_ws/build/wanderbot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kohjj27/my_ws/src/wanderbot -DCMAKE_INSTALL_PREFIX=/home/kohjj27/my_ws/install/wanderbot
+[1.533s] Invoking command in '/home/kohjj27/my_ws/build/wanderbot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/wanderbot -- -j16 -l16
+[1.598s] [ 50%] [32mBuilding CXX object CMakeFiles/go_rot.dir/src/go_rot.cpp.o[0m
+[3.904s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_rot.cpp:26:36:[m[K [01;31m[Kerror: [m[K‘[01m[KsharedPtr[m[K’ in ‘[01m[Kclass rclcpp::TimerBase[m[K’ does not name a type
+[3.904s]    26 |                 rclcpp::TimerBase::[01;31m[KsharedPtr[m[K timer_;
+[3.904s]       |                                    [01;31m[K^~~~~~~~~[m[K
+[3.914s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_rot.cpp:[m[K In constructor ‘[01m[KGoRot::GoRot()[m[K’:
+[3.914s] [01m[K/home/kohjj27/my_ws/src/wanderbot/src/go_rot.cpp:17:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[3.914s]    17 |                         [01;31m[Ktimer_[m[K = this->create_wall_timer(100ms, std::bind(&GoRot::timer_cb, this));
+[3.914s]       |                         [01;31m[K^~~~~~[m[K
+[3.914s]       |                         [32m[Ktimer_t[m[K
+[4.690s] gmake[2]: *** [CMakeFiles/go_rot.dir/build.make:76: CMakeFiles/go_rot.dir/src/go_rot.cpp.o] Error 1
+[4.691s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/go_rot.dir/all] Error 2
+[4.691s] gmake: *** [Makefile:146: all] Error 2
+[4.694s] Invoked command in '/home/kohjj27/my_ws/build/wanderbot' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/wanderbot -- -j16 -l16

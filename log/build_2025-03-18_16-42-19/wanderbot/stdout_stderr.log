@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target go_rot[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/go_rot.dir/src/go_rot.cpp.o[0m
+[100%] [32m[1mLinking CXX executable go_rot[0m
+[100%] Built target go_rot
+-- Install configuration: ""
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/lib/wanderbot/go_rot
+-- Set runtime path of "/home/kohjj27/my_ws/install/wanderbot/lib/wanderbot/go_rot" to ""
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/ament_index/resource_index/package_run_dependencies/wanderbot
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/ament_index/resource_index/parent_prefix_path/wanderbot
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/environment/ament_prefix_path.sh
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/environment/ament_prefix_path.dsv
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/environment/path.sh
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/environment/path.dsv
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/local_setup.bash
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/local_setup.sh
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/local_setup.zsh
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/local_setup.dsv
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/package.dsv
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/ament_index/resource_index/packages/wanderbot
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/cmake/wanderbotConfig.cmake
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/cmake/wanderbotConfig-version.cmake
+-- Installing: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/package.xml

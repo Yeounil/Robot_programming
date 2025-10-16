@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/kohjj27/my_ws/build/wanderbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/wanderbot -- -j16 -l16
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target go_scan[0m
+[0.084s] [ 50%] Built target go_rot
+[0.092s] [ 75%] [32mBuilding CXX object CMakeFiles/go_scan.dir/src/go_scan.cpp.o[0m
+[8.468s] [100%] [32m[1mLinking CXX executable go_scan[0m
+[8.860s] [100%] Built target go_scan
+[8.875s] Invoked command in '/home/kohjj27/my_ws/build/wanderbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/wanderbot -- -j16 -l16
+[8.876s] Invoking command in '/home/kohjj27/my_ws/build/wanderbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kohjj27/my_ws/build/wanderbot
+[8.886s] -- Install configuration: ""
+[8.886s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/lib/wanderbot/go_rot
+[8.886s] -- Installing: /home/kohjj27/my_ws/install/wanderbot/lib/wanderbot/go_scan
+[8.891s] -- Set runtime path of "/home/kohjj27/my_ws/install/wanderbot/lib/wanderbot/go_scan" to ""
+[8.891s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/ament_index/resource_index/package_run_dependencies/wanderbot
+[8.891s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/ament_index/resource_index/parent_prefix_path/wanderbot
+[8.892s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/environment/ament_prefix_path.sh
+[8.892s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/environment/ament_prefix_path.dsv
+[8.892s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/environment/path.sh
+[8.892s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/environment/path.dsv
+[8.892s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/local_setup.bash
+[8.892s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/local_setup.sh
+[8.892s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/local_setup.zsh
+[8.892s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/local_setup.dsv
+[8.892s] -- Installing: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/package.dsv
+[8.892s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/ament_index/resource_index/packages/wanderbot
+[8.892s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/cmake/wanderbotConfig.cmake
+[8.892s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/cmake/wanderbotConfig-version.cmake
+[8.892s] -- Up-to-date: /home/kohjj27/my_ws/install/wanderbot/share/wanderbot/package.xml
+[8.894s] Invoked command in '/home/kohjj27/my_ws/build/wanderbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kohjj27/my_ws/build/wanderbot

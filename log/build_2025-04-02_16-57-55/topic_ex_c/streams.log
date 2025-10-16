@@ -1,0 +1,53 @@
+[0.019s] Invoking command in '/home/kohjj27/my_ws/build/topic_ex_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kohjj27/my_ws/src/topic_ex_c -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kohjj27/my_ws/install/topic_ex_c
+[0.031s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.158s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.165s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.196s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.198s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.204s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.214s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.227s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.259s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.261s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.384s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.436s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.508s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.509s] -- Configured cppcheck include dirs: 
+[0.509s] -- Configured cppcheck exclude dirs and/or files: 
+[0.509s] -- Added test 'lint_cmake' to check CMake code style
+[0.510s] -- Added test 'uncrustify' to check C / C++ code style
+[0.510s] -- Configured uncrustify additional arguments: 
+[0.510s] -- Added test 'xmllint' to check XML markup files
+[0.511s] -- Configuring done
+[0.525s] -- Generating done
+[0.530s] -- Build files have been written to: /home/kohjj27/my_ws/build/topic_ex_c
+[0.540s] Invoked command in '/home/kohjj27/my_ws/build/topic_ex_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kohjj27/my_ws/src/topic_ex_c -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kohjj27/my_ws/install/topic_ex_c
+[0.542s] Invoking command in '/home/kohjj27/my_ws/build/topic_ex_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/topic_ex_c -- -j16 -l16
+[0.594s] [35m[1mConsolidate compiler generated dependencies of target topic_pub[0m
+[0.594s] [35m[1mConsolidate compiler generated dependencies of target topic_sub[0m
+[0.614s] [ 50%] [32m[1mLinking CXX executable topic_pub[0m
+[0.615s] [ 50%] [32m[1mLinking CXX executable topic_sub[0m
+[0.866s] [ 75%] Built target topic_pub
+[1.029s] [100%] Built target topic_sub
+[1.045s] Invoked command in '/home/kohjj27/my_ws/build/topic_ex_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kohjj27/my_ws/build/topic_ex_c -- -j16 -l16
+[1.059s] Invoking command in '/home/kohjj27/my_ws/build/topic_ex_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kohjj27/my_ws/build/topic_ex_c
+[1.068s] -- Install configuration: ""
+[1.068s] -- Execute custom install script
+[1.068s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/lib/topic_ex_c/topic_pub
+[1.081s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/lib/topic_ex_c/topic_sub
+[1.094s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/ament_index/resource_index/package_run_dependencies/topic_ex_c
+[1.106s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/ament_index/resource_index/parent_prefix_path/topic_ex_c
+[1.119s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/environment/ament_prefix_path.sh
+[1.130s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/environment/ament_prefix_path.dsv
+[1.142s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/environment/path.sh
+[1.153s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/environment/path.dsv
+[1.164s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/local_setup.bash
+[1.176s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/local_setup.sh
+[1.188s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/local_setup.zsh
+[1.199s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/local_setup.dsv
+[1.211s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/package.dsv
+[1.223s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/ament_index/resource_index/packages/topic_ex_c
+[1.243s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/cmake/topic_ex_cConfig.cmake
+[1.254s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/cmake/topic_ex_cConfig-version.cmake
+[1.266s] -- Symlinking: /home/kohjj27/my_ws/install/topic_ex_c/share/topic_ex_c/package.xml
+[1.281s] Invoked command in '/home/kohjj27/my_ws/build/topic_ex_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kohjj27/my_ws/build/topic_ex_c
